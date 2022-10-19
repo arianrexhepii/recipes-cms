@@ -38,6 +38,12 @@
       "type": "component",
       "repeatable": true,
       "component": "languages.recipes"
+    },
+    "otherIngredient": {
+      "type": "string"
+    },
+    "otherQuantity": {
+      "type": "integer"
     }
   }
 }
