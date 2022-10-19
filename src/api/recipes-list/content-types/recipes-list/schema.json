@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes_lists",
+  "info": {
+    "singularName": "recipes-list",
+    "pluralName": "recipes-lists",
+    "displayName": "Recipes List",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "recipesName": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "recipesSource": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "recipesInstructions": {
+      "type": "richtext",
+      "pluginOptions": {}
+    },
+    "recipesHours": {
+      "type": "integer",
+      "pluginOptions": {}
+    },
+    "recipesMinutes": {
+      "type": "integer",
+      "pluginOptions": {}
+    },
+    "recipes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "languages.recipes"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_languages_recipes",
+  "info": {
+    "displayName": "recipes",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    }
+  }
+}
